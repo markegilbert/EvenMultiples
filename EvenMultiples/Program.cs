@@ -45,7 +45,6 @@
                 // to check for evens; it only needs to check for multiples of StartingNumber.
                 for (; Index <= EndingNumber; Index = Index + 2)
                 {
-                    //if (Index % 2 == 0 && Index % StartingNumber == 0) { Multiples.Add(Index); }
                     if (Index % StartingNumber == 0) { Multiples.Add(Index); }
                 }
 
